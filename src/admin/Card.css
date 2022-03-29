@@ -1,0 +1,139 @@
+.card {
+  min-width: 275px;
+  height: auto;
+  margin-bottom: 30px;
+  padding: 15px 17px;
+  border: 1px solid hsla(0, 0%, 50.2%, 0.12941176470588237);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.card1 {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  padding: 0 5px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card1 div {
+  flex-grow: 1;
+}
+
+.card1 div ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.card1 div ul li:first-child {
+  background: #f9f7de;
+  color: #d8a523;
+
+  align-items: center;
+  font-size: 10px;
+  margin-bottom: 15px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.protocol {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-bottom: 3px;
+  text-align: right;
+  font-weight: 600;
+}
+
+.card1 div ul li:last-child {
+  font-size: 12px;
+  font-weight: 300;
+  color: #595959;
+}
+
+.card2 {
+  width: 96%;
+  height: auto;
+  margin-bottom: 25px;
+  padding: 5px 10px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.card2 p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+
+.card2 p span {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.card2 p span span {
+  letter-spacing: 0.3em;
+  color: #cec8c8;
+}
+
+.card3 {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0 5px;
+}
+
+.card3 h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #003a96;
+  padding-bottom: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.card3_div1 {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background: #d0d0d1;
+  border-radius: 10px;
+}
+
+.card3_div1 div {
+  /* width: 6.32215%; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 5px;
+  border-radius: 10px;
+  background-color: var(--bg-color);
+  background-image: linear-gradient(270deg, #8a8aff, #5e5ef9, #3737a0, #35359e);
+  background-size: 400% 100%;
+  -webkit-animation: loading 10s ease-in-out infinite;
+  animation: loading 10s ease-in-out infinite;
+}
+
+.card3_div2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.card3_div2 span {
+  color: #969696;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+@media Screen and (max-width: 314px) {
+  .card {
+    padding: 0;
+  }
+}

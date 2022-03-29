@@ -1,0 +1,55 @@
+.admin_home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-image: url("./home.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: Anshul;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  flex-direction: column;
+  margin-left: 0.6px;
+}
+
+@keyframes Anshul {
+  from {
+    height: 200%;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+.admin_home h1 {
+  color: #bb9747;
+  font-size: 4vw;
+  font-weight: 500;
+  margin-left: 2rem;
+}
+
+.admin_home p {
+  width: 43%;
+  margin-left: 2rem;
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #c8c6b2;
+}
+
+@media Screen and (max-width: 668px) {
+  .admin_home {
+    margin-left: 0;
+  }
+  .admin_home h1 {
+    font-size: 4vw;
+    margin-left: 1rem;
+  }
+
+  .admin_home p {
+    width: 40%;
+    margin-left: 1rem;
+    font-size: 3vw;
+  }
+}

@@ -1,0 +1,81 @@
+.launcpad_h1 {
+  margin-left: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  color: #5b4f4f;
+  z-index: 1;
+}
+
+.launcpad_div1 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.launcpad_div1 button {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-right: 70px;
+  white-space: nowrap;
+  border-radius: 1rem;
+}
+
+.launcpad_div_btn {
+  color: red;
+  border-bottom: 5px solid black;
+}
+
+/*  */
+
+.launcpad_div2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media Screen and (max-width: 641px) {
+  .launcpad_div1 {
+    justify-content: center;
+  }
+
+  .launcpad_div1 button {
+    margin-right: 5vw;
+  }
+}
+
+@media Screen and (max-width: 470px) {
+  .launcpad_div1 button {
+    font-size: 7px;
+    font-weight: 500;
+    letter-spacing: 0;
+  }
+
+  .launcpad_div1 {
+    justify-content: center;
+    margin-left: 1rem;
+  }
+
+  .launcpad_h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 0rem;
+    text-align: center;
+  }
+}
+
+@media Screen and (max-width: 314px) {
+  .launcpad_div1 button {
+    margin-right: 3vw;
+  }
+}
